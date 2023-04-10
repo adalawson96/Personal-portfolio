@@ -1,17 +1,20 @@
 import React from "react";
-import css from './Works.module.scss';
+import css from './Skill.module.scss';
 import { motion } from 'framer-motion';
 import { staggerChildren, textVariant2, zoomIn, fadeIn } from "../../utils/motion";
 import { workExp } from "../../utils/data";
 
-const Works = () => {
+const Skill = () => {
     return (
         <motion.section 
         variants={ staggerChildren }
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25}}
+        viewport={{ once: false, amount: 0.25 }}
         className={`paddings ${css.wrapper}`}>
+
+            {/* makes header skill tag activated */}
+            <a className="anchor" id="Skill"></a>
 
             <div className={`flexCenter innerWidth ${css.container}`}>
                 <span className="primaryText yPaddings">SKILLS</span>
@@ -25,6 +28,7 @@ const Works = () => {
                                 {/* Skill Name */}
                                 <div className={css.post}>
                                     <h1>{exp.skill}</h1>
+                                    
                                 </div>
                                 {/*Listed Skills */}
                                 <div className={css.role}>
@@ -36,9 +40,9 @@ const Works = () => {
                         {/* Animated Line w/ circles */}
                         <motion.div variants={zoomIn(1, 1)} className={css.progressbar}>
                             <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
-                            <div><div className={css.circle} style={{background: "#286F6C"}}></div></div>
-                            <div><div className={css.circle} style={{background: "#286F6C"}}></div></div>
-                            <div><div className={css.circle} style={{background: "#286F6C"}}></div></div>
+                            <div><div className={css.circle} style={{background: "#6464e7"}}></div></div>
+                            <div><div className={css.circle} style={{background: "#9090ee"}}></div></div>
+                            <div><div className={css.circle} style={{background: "#d2d2f8"}}></div></div>
                         </motion.div>
                 </div>
             </div>
@@ -46,4 +50,4 @@ const Works = () => {
     )
 }
 
-export default Works;
+export default Skill;

@@ -1,13 +1,20 @@
-import React, { useState } from 'react';
-import css from '../Header.module.scss';
-import { BiMenuAltRight, BiPhoneCall } from 'react-icons/bi';
+import React, { useRef, useState } from 'react';
+import css from './Header.module.scss';
+import { BiMenuAltRight } from 'react-icons/bi';
 import { motion } from 'framer-motion';
 import { getMenuStyles, headerVariants } from '../../utils/motion';
-import useHeaderShadow from "../../hooks/useHeaderShadow";
+import useHeaderShadow from '../../hooks/useHeaderShadow';
+import useOutsideAlerter from '../../hooks/useOutsideAlerter';
 
 const Header = () => {
     const [menuOpened, setMenuOpened] = useState(false);
-    const headerSahow = useHeaderShadow()
+    const headerSahow = useHeaderShadow();
+    const menuRef = useRef();
+
+    useOutsideAlerter({
+            menuRef,
+            setMenuOpened,
+        })
 
     return (
         <motion.div 
@@ -15,8 +22,7 @@ const Header = () => {
         whileInView="show"
         variants={headerVariants}
         viewport={{ once: false, amount: 0.25 }}
-        className={`paddings ${css.wrapper } header-div`
-        }
+        className={`paddings ${css.wrapper }`}
         style={{boxShadow: headerSahow}}
         >
 
@@ -24,16 +30,14 @@ const Header = () => {
                 <div className={css.name}>
                     Ada
                 </div>
-                <ul style={getMenuStyles(menuOpened)} 
-                className={`flexCenter ${css.menu}`}>
-                    <li><a href="">SKills</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Bio</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li className={`flexCenter ${css.phone}`}>
-                        <p>+34625233339</p>
-                        <BiPhoneCall size={"40px"} />
-                    </li>
+                <ul 
+                    ref={menuRef}
+                    className={`flexCenter ${css.menu}`}
+                    style={getMenuStyles(menuOpened)} 
+                >
+                    <li><a href="#Skill">Skills</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             {/* ONLY form medium and small screens  */}
                 <div className={css.menuIcon} 

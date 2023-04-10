@@ -22,7 +22,7 @@ const Hero=()=> {
                         Hey There, <br /> I'm Ada. 
                     </motion.span>
                     <motion.span className='secondaryText' variants={fadeIn("left", "tween", 0.4, 1)}>
-                        I design beatiful simple <br /> things, And I love what I do <br />
+                       <p> I am detail oriented by nature, <br/> a big believer in adventuring. <br/>I thrive in collaborative environments <br/>& enjoy learning new approaches <br/> to problem solving from my peers. <br/><a href="mailto:adalawson96@gmail.com">Get in touch!</a></p> 
                     </motion.span>
                 </div>
 
@@ -42,7 +42,7 @@ const Hero=()=> {
                     className={css.experince}>
                         <div className='secondaryText'>
                             <div>
-                                Web Developer | Software Engineer
+                                Junior Web Developer
                             </div>
                         </div>
                     </motion.div>

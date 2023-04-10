@@ -1,17 +1,17 @@
 import Header from './components/Header/Header';
 import css from './styles/app.module.scss';
 import Hero from './components/Hero/Hero';
-import Works from './components/Works/Works';
-// import Bio from './components/Bio/Bio';
+import Skill from './components/Skill/Skill';
+import Footer from './components/Footer/Footer';
 import Portfolio from './components/Portfolio/Portfolio';
 
 const App = () => {
   return <div className={`bg-primary ${css.container}`}>
     <Header />
     <Hero />
-    <Works />
+    <Skill />
     <Portfolio/>
-    {/* <Bio/> */}
+    <Footer />
   </div>
 };
 

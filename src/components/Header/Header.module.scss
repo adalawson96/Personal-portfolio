@@ -1,10 +1,9 @@
-@import'../styles/contants.scss';
-
+@import '../../styles/contants.scss';
 
 .wrapper {
     position: relative;
     z-index: 99;
-    opacity: 1;
+    // opacity: 10;
     transform: none;
     position: sticky;
     top: 0;
@@ -32,7 +31,7 @@
                 width: 50%;
                 min-width: 15rem;
                 background: white;
-                padding: 2re;
+                padding: 2rem;
                 display: flex;
                 border-radius: 2rem;
                 transition: all 300ms ease;
@@ -42,11 +41,11 @@
                 box-shadow: 0px 4px 4px rba(0, 0, 0, 0.05);
                
             }
-
+            
             text-transform: uppercase;
             font-size: 1rem;
             list-style: none;
-            gap: 1.5rem;
+            gap: 2rem;
             cursor: pointer;
 
             li {
@@ -58,22 +57,6 @@
                 &:hover {
                     color: $secondary;
                 }
-            }
-
-            .phone {
-                gap: 1.2rem;
-                flex-wrap: wrap;
-                
-                svg {
-                    color: $secondary;
-                    padding: 10px;
-                    background: white;
-                    border-radius: 999px;
-                    box-shadow: opx 4px 4px rgba(0, 0, 0, 0.05);
-                }
-                // .header-div {
-                //     background-color: red;
-                // }
             }
         }
     }

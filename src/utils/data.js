@@ -22,26 +22,21 @@ export const projectExperience = [
   },
 ];
 
-export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
-];
-
 export const workExp = [
   {
     skill: "Technical Skills",
     detail:
-      "JavaScript React Python NodeJs MongoDB HTML CSS",
+      "JavaScript, React, Python, NodeJs, MongoDB, HTML, CSS",
   },
   {
     skill: "Software Competencies",
     detail:
-      "GitHub Figma Trello",
+      "GitHub, Figma",
   },
   {
     skill: "Soft Skills",
     detail:
-      "Problem solving Critical thinking Team player Detail oriented Time management",
+      "Problem solving, Critical thinking, Team player, Detail oriented, Time management",
   },
 ];
 
