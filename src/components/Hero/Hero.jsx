@@ -12,6 +12,9 @@ const Hero=()=> {
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
             className={`innerWidth ${css.container}`}>
+
+                {/* makes header skill tag activated */}
+                <a className="anchor" id="Hero"></a>
                 
             {/* Upper Elements */}
                 <div className= {`${css.upperElements} headerText`}>

@@ -23,10 +23,11 @@ const Footer = () => {
                     </h3>
                     <a href="https://www.linkedin.com/in/ada-lawson/">LinkedIn</a><br/>
                     <a href="https://github.com/adalawson96">Github</a><br/>
-                    <a href="mailto:adalawson96@gmail.com">Email</a>
+                    <a href="mailto:adalawson96@gmail.com">Email</a><br/>
+                    <a href="file:///Users/adalawson/Downloads/SEI%20Resume%20%20(1).pdf">Resume</a>
                 </div>
 
-                {/* Rght side of the section w/ form*/}
+                {/* Right side of the section w/ form*/}
                 <div className={css.right}>
                     <span className='secondaryText'>Send me a message:</span>
         
