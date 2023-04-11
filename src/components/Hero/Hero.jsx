@@ -45,7 +45,7 @@ const Hero=()=> {
                     className={css.experince}>
                         <div className='secondaryText'>
                             <div>
-                                Junior Web Developer
+                                Web Developer
                             </div>
                         </div>
                     </motion.div>
