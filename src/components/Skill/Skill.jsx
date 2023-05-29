@@ -27,8 +27,7 @@ const Skill = () => {
                             key={i}>
                                 {/* Skill Name */}
                                 <div className={css.post}>
-                                    <h1>{exp.skill}</h1>
-                                    
+                                    <h2>{exp.skill}</h2>
                                 </div>
                                 {/*Listed Skills */}
                                 <div className={css.role}>

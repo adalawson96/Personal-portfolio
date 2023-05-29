@@ -33,18 +33,15 @@ const Portfolio = () => {
                         src="./surf.png"
                         alt="project"
                     />
-                    <a href="https://surf-app9.herokuapp.com/">Try!</a>
+                    <a href="https://surf-app9.herokuapp.com/">this</a>
                     <motion.img 
                         variants={fadeIn("up", "tween", 0.9, 0.6)}
                         src="./showCase3.png"
                         alt="project"
                     />
-                    <a href=""></a>
-
                 </div>
             </div>
          </motion.section>
-
     )
 }
 

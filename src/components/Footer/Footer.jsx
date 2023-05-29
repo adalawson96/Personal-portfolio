@@ -1,40 +1,45 @@
 import React from 'react';
-import css from './Footer.module.scss';
+import './Footer.css';
 
-const Footer = () => {
-    return (
-        <section className={css.wrapper}>
-            <div className={css.container}>
-
-                {/* makes header skill tag activated */}
-                <a className="anchor" id="Contact"></a>
-
-                {/* Left side of the section */}
-                <div className={` flexCenter ${css.heading}`}>
-                    <span className="primaryText">
-                        CONTACT
-                    </span>
+export default function Footer(){
+    return(
+        <footer>
+            <body>
+                <div class="footer">
+                    <div class="col-1">
+                        <h1>CONTACT</h1><br />
+                        <h2> I enjoy building relationships with individuals who want to collaborate. Let's Connect!</h2>
+                        <div class="social-icons">
+                            <a href="mailto:adalawson96@gmail.com">Email</a>
+                            <a href="https://www.linkedin.com/in/ada-lawson/">LinkedIn</a>
+                            <a href="https://github.com/adalawson96">Github</a>
+                            <i class="fab fa-resume">Resume</i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <h3>Send me a message:</h3><br/>
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label"></label>
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="EMAIL"/>
+                                </div>
+                                <div class="col-12">
+                                    <label for="fullName" class="form-label"></label>
+                                    <input type="text" class="form-control" id="fullName" placeholder="FULL NAME" />
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label"></label>
+                                    <input type="text" class="form-control" id="message" placeholder="TYPE YOUR MESSAGE HERE." />
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">SUBMIT</button>
+                                </div>
+                            </form>
+                    </div>
                 </div>
-                <div className={css.left}>
-                    <h3>
-                        I enjoy building relationships with <br/> 
-                        individuals who want to collaborate. <br/>
-                        Let's Connect!
-                    </h3>
-                    <a href="https://www.linkedin.com/in/ada-lawson/">LinkedIn</a><br/>
-                    <a href="https://github.com/adalawson96">Github</a><br/>
-                    <a href="mailto:adalawson96@gmail.com">Email</a><br/>
-                    <a href="file:///Users/adalawson/Downloads/SEI%20Resume%20%20(1).pdf">Resume</a>
-                </div>
-
-                {/* Right side of the section w/ form*/}
-                <div className={css.right}>
-                    <span className='secondaryText'>Send me a message:</span>
-        
-                </div>
-            </div>
-        </section>
+            </body>
+        </footer>
     )
 }
 
-export default Footer;
+// export default Footer;
