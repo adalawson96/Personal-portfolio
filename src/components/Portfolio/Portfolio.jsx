@@ -27,7 +27,7 @@ const Portfolio = () => {
                         src="./memory.png"
                         alt="project"
                     />
-                   <div class="proj-text-container">
+                   <div class="proj_text_container">
                         <h3 className='proj-featured'>FEATURED PROJECT</h3>
                         <h2 className='proj-title'>MEMORY GAME</h2>
                         <p className='proj-caption'>A classic game of memory game wit a fully functional and interactive interface.</p>

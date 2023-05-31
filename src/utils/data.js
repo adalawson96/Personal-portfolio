@@ -26,7 +26,7 @@ export const workExp = [
   {
     skill: "Technical Skills",
     detail:
-      "JavaScript, React, Python, NodeJs, MongoDB, HTML, CSS",
+      "JavaScript, React, Python, NodeJs, MongoDB, HTML, CSS"
   },
   {
     skill: "Software Competencies",
