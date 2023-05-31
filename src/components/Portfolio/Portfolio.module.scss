@@ -4,21 +4,25 @@
 .wrapper {
     background-color: white;
     overflow: hidden;
+    
+    .primaryText {
+        flex-direction: row;
+    }
     .container {
-        // flex-direction: row;
-        // gap: 2rem;
+        flex-direction: row;
+        gap: 2rem;
         .heading {
             width: 100%;
-            // justify-content: space-between;
-            // align-items: flex-start;
-            // flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
         }
         .showCase{
-            // width: 100%;
+            width: 100%;
             flex-direction: column;
             gap: 2rem;
-            // justify-content: space-around;
-            // flex-wrap: wrap;
+            justify-content: space-around;
+            flex-wrap: wrap;
             >img {
                 @media (max-width: $sm) {
                     width: 100%;
