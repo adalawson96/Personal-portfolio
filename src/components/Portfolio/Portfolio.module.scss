@@ -1,5 +1,17 @@
 @import '../../styles/contants.scss';
 
+
+// .grid-container {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+//     grid-gap: 10px; /* Add a 10px gap between grid items */
+//   }
+  
+//   .grid-item {
+//     background-color: #f2f2f2;
+//     padding: 20px;
+//   }
+
 .wrapper {
     background-color: white;
     overflow: hidden;
@@ -12,11 +24,16 @@
             align-items: flex-end;
             flex-wrap: wrap;
         }
+        // .proj-button {
+        //     border: 2px solid red;
+        //     /* Additional styles for the button */
+        //   }
         .showCase{
             width: 100%;
             gap: 1.5rem;
             justify-content: space-around;
             flex-wrap: wrap;
+           
             >img {
                 @media (max-width: $sm) {
                     width: 100%;

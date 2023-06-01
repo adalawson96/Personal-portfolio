@@ -10,9 +10,9 @@ export default function Footer(){
                         <h1>CONTACT</h1><br />
                         <h2> I enjoy building relationships with individuals who want to collaborate. Let's Connect!</h2>
                         <div class="social-icons">
-                            <a href="mailto:adalawson96@gmail.com">Email</a>
-                            <a href="https://www.linkedin.com/in/ada-lawson/">LinkedIn</a>
-                            <a href="https://github.com/adalawson96">Github</a>
+                           <button type='button'><a style={{textDecoration: 'none'}} href="mailto:adalawson96@gmail.com">Email</a></button> 
+                           <button type='button'><a style={{textDecoration: 'none'}} href="https://www.linkedin.com/in/ada-lawson/">LinkedIn</a></button> 
+                           <button type='button'><a style={{textDecoration: 'none'}} href="https://github.com/adalawson96">Github</a> </button> 
                             <i class="fab fa-resume">Resume</i>
                         </div>
                     </div>
@@ -21,6 +21,7 @@ export default function Footer(){
                             <form class="row g-3">
                                 <div class="col-md-6">
                                     <label for="inputEmail4" class="form-label"></label>
+                                    
                                     <input type="email" class="form-control" id="inputEmail4" placeholder="EMAIL"/>
                                 </div>
                                 <div class="col-12">

@@ -25,7 +25,7 @@ const Hero=()=> {
                         Hey There, <br /> I'm Ada. 
                     </motion.span>
                     <motion.span className='secondaryText' variants={fadeIn("left", "tween", 0.4, 1)}>
-                       <p> I am detail oriented by nature, <br/> a big believer in adventuring. <br/>I thrive in collaborative environments <br/>& enjoy learning new approaches <br/> to problem solving from my peers. <br/><a href="mailto:adalawson96@gmail.com">Get in touch!</a></p> 
+                       <p> I am detail oriented by nature, <br/> a big believer in adventuring. <br/>I thrive in collaborative environments <br/>& enjoy learning new approaches <br/> to problem solving from my peers. <br/><b><a style={{textDecoration: 'none'}}href="mailto:adalawson96@gmail.com">Get in touch!</a></b></p> 
                     </motion.span>
                 </div>
 
