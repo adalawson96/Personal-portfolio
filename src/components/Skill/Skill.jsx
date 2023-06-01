@@ -14,10 +14,10 @@ const Skill = () => {
         className={`paddings ${css.wrapper}`}>
 
             {/* makes header skill tag activated */}
-            <a className="anchor" id="Skill"></a>
+            <a className='anchor' id="Skill"></a>
 
             <div className={`flexCenter innerWidth ${css.container}`}>
-                <span className="primaryText yPaddings">SKILLS</span>
+                <span className='primaryText yPaddings'>SKILLS</span>
 
                 <div className={`flexCenter ${css.experiences}`}>
                     {workExp.map((exp, i) => {
