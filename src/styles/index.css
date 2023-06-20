@@ -5,4 +5,12 @@
     scroll-behavior: smooth;
     font-family: "Euxodus Sans", sans-serif;
   }
+
+  .proj-button {
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 7px 12px;
+    margin-inline-end: 10px;
+  }
   

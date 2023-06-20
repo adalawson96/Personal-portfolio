@@ -33,8 +33,8 @@ const Portfolio = () => {
                         <p className='proj-caption'>A classic game of memory game wit a fully functional and interactive interface.</p>
                         <p className='proj-stack'><b> CSS | HTML | JavaScript </b></p>
                         <div className='proj-button-container'>
-                            <button><a style={{textDecoration: 'none'}} class="proj-button" href="https://adalawson96.github.io/memory_game/" target="_blank">VIEW</a></button>
-                            <button><a style={{textDecoration: 'none'}} class="proj-button" href="https://github.com/adalawson96/memory_game">GITHUB</a></button>
+                        <a class="proj-button" href="https://adalawson96.github.io/memory_game/" target="_blank"><button>VIEW</button></a>
+                            <button><a class="proj-button" href="https://github.com/adalawson96/memory_game">GITHUB</a></button>
                         </div>
                     </div>
                     <motion.img 
