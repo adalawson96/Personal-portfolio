@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer';
 import Portfolio from './components/Portfolio/Portfolio';
 
 const App = () => {
-  return <div className={`bg-primary ${css.container}`}>
+  return <div className={`${css.container}`}>
     <Header />
     <Hero />
     <Skill />

@@ -6,33 +6,27 @@
     .container {
         position: relative;
         z-index: 1;
-        padding-top: 14rem;
+        padding-top: 7rem;
         padding-left: 1rem;
         padding-right: 1rem;
         background-color: white;
-
+        @media (max-width: $sm) {
+            padding-top: 4rem;
+        }
         .upperElements {
-            @media (max-width: $sm) {
-                justify-content: center;
-                text-align: center;
-                gap: 2rem;
-                justify-content: center;
-            }
             display: flex;
-            align-items: center;
-            justify-content: space-between;
             flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 2rem;
         }
         .lowerElements {
-            @media (max-width: $sm), (max-width: $md) {
-                margin-top: 4rem;
-                gap: 2rem;
-                justify-content: center;
-            }
-            margin-top: 12 rem;
+            margin-top: 1rem;
+            gap: 2rem;
+            justify-content: center;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
 
             .experience {
                 display: flex;
@@ -45,23 +39,12 @@
             }
         }
         .person {
-            @media (max-width: $sm), (max-width: $md) {
-                position: relative;
-                left: 0;
-                background-size: 20rem;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background-position: bottom;
-            }
-
-            position: absolute;
-            bottom: -2rem;
-            margin: auto;
-            background-image: url('../splash.png');
-            background-repeat: no-repeat;
-            background-size: 26rem;
-            left: 33%;
+            position: relative;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('../splash.png') no-repeat bottom / 20rem;
 
             img {
                 @media (max-width: $sm){

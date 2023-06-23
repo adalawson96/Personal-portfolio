@@ -4,28 +4,30 @@ import { motion } from "framer-motion";
 import { fadeIn, slideIn, staggerContainer } from '../../utils/motion';
 
 const Hero=()=> {
-    return (
-        <section className={`padding ${css.wrapper} `}>
-            <motion.div 
-                variants={ staggerContainer }
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: false, amount: 0.25 }}
-            className={`innerWidth ${css.container}`}>
+return (
+    <section className={`padding ${css.wrapper} `}>
+        <motion.div 
+            variants={ staggerContainer }
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25 }}
+        className={`innerWidth ${css.container}`}>
 
-                {/* makes header skill tag activated */}
-                <a className="anchor" id="Hero"></a>
-                
-            {/* Upper Elements */}
-                <div className= {`${css.upperElements} headerText`}>
-                    <motion.span 
-                    variants={fadeIn("right", 'tween', 0.2, 1)}
-                    className='primaryText'>
+            {/* makes header skill tag activated */}
+            <a className="anchor" id="Hero"></a>
+            
+        {/* Upper Elements */}
+            <div className= {`${css.upperElements} headerText`}>
+                <motion.span 
+                variants={fadeIn("right", 'tween', 0.2, 1)}
+                className='primaryText'>
 
-                        Hey There, <br /> I'm Ada. 
-                    </motion.span>
-                    <motion.span className='secondaryText' variants={fadeIn("left", "tween", 0.4, 1)}>
-                       <p> I am detail oriented by nature, <br/> a big believer in adventuring. <br/>I thrive in collaborative environments <br/>& enjoy learning new approaches <br/> to problem solving from my peers. <br/><b><a style={{textDecoration: 'none'}}href="mailto:adalawson96@gmail.com">Get in touch!</a></b></p> 
+                    Hey There, <br /> I'm Ada. 
+                </motion.span>
+                <motion.span className='secondaryText' variants={fadeIn("left", "tween", 0.4, 1)}>
+                    <p>I am detail oriented by nature, a big believer in adventuring.</p>
+                    <p>I thrive in collaborative environments &amp; enjoy learning new approaches <br />to problem solving from my peers.</p>
+                    <p><strong><a style={{textDecoration: 'none'}}href="mailto:adalawson96@gmail.com">Get in touch!</a></strong></p> 
                     </motion.span>
                 </div>
 
