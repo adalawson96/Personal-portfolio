@@ -13,11 +13,12 @@ button {
 }
 
 .proj-button {
-  background-color: blue;
+  background-color: rgba(102, 102, 240, 0.743);
   color: white;
   border: 0;
   padding: 7px 12px;
   margin-inline-end: 10px;
+  border-radius: 12px
 }
 
 .proj-text-container {
