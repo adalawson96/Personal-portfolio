@@ -57,6 +57,26 @@ input[type="text"], input[type="email"] {
   cursor: pointer;
 }
 
+.form-heading {
+  color: black;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  margin: 0 0 .5rem;
+  padding: 0;
+}
+
+.form-answer {
+  color: black;
+  font-family: 300;
+  text-align: left;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+  padding: 0;
+}
+
 @media screen and (max-width: 767px) {
   .project-inner {
     flex-direction: column;
