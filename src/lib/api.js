@@ -1,5 +1,5 @@
 export const sendContactForm = async(data) => 
-fetch('/api/contact', {
+fetch('../../api/contact', {
     method: "POST",
     body: JSON.stringify(data),
     headers: {
@@ -7,6 +7,8 @@ fetch('/api/contact', {
         Accept: "application/json",
     },
 }).then((res) => {
+    console.log(data, "DATA TEST");
+    // console.log(res, "TESTING THE RES");
     if (!res.ok) throw new Error("Failed to send message");
     return res.json();
   });

@@ -33,7 +33,7 @@ const Portfolio = () => {
                             <p className='proj-caption'>A classic game of memory game wit a fully functional and interactive interface.</p>
                             <p className='proj-stack'><b> CSS | HTML | JavaScript </b></p>
                             <div className='proj-button-container'>
-                                <a className="proj-button" href="https://adalawson96.github.io/memory_game/" target="_blank"><button>VIEW</button></a>
+                                {/* <a className="proj-button" href="https://adalawson96.github.io/memory_game/" target="_blank"><button>VIEW</button></a> */}
                                 <a className="proj-button" href="https://github.com/adalawson96/memory_game" target="_blank"><button>GITHUB</button></a>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ const Portfolio = () => {
                             <p className='proj-caption'>Nalu Finder is an app that helps find surf spots that you want to go visit and learn more about the spot. This app is a great way to “save spots” and leave comments or tips for others to see.</p>
                             <p className='proj-stack'><b> Node.js | ExpressEJS | Express EJS layouts |  CSS/Bootstrap | HTML | JavaScript | MongoDB </b></p>
                             <div className='proj-button-container'>
-                                <a className="proj-button" href="https://surf-app9.herokuapp.com/" target="_blank"><button>VIEW</button></a>
+                                {/* <a className="proj-button" href="https://surf-app9.herokuapp.com/" target="_blank"><button>VIEW</button></a> */}
                                 <a className="proj-button" href="https://github.com/adalawson96/surf_app" target="_blank"><button>GITHUB</button></a>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ const Portfolio = () => {
                             <p className='proj-caption'>A live, responsive and fully shopabble e-commerce website following and original website to create a blue print effect.</p>
                             <p className='proj-stack'><b> Node.js | ExpressEJS |  CSS/Bootstrap | HTML | JavaScript | MongoDB/Mongoose| React </b></p>
                             <div className='proj-button-container'>
-                                <a className="proj-button" href="https://casecoffee.herokuapp.com/" target="_blank"><button>VIEW</button></a>
+                                {/* <a className="proj-button" href="https://casecoffee.herokuapp.com/" target="_blank"><button>VIEW</button></a> */}
                                 <a className="proj-button" href="https://github.com/adalawson96/blueprint-mern-infrastructure" target="_blank"><button>GITHUB</button></a>
                             </div>
                         </div>
