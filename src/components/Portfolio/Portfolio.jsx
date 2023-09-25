@@ -31,6 +31,25 @@ const Portfolio = () => {
                         />
                         <div className="proj-text-container">
                             <h3 className='proj-featured'>FEATURED PROJECT</h3>
+                            <h2 className='proj-title'>BREAK POINT</h2>
+                            <p className='proj-caption'>React webpage for Tennis Club that offers restaurant services.</p>
+                            <p className='proj-stack'><b> HTML | JavaScript | React| CSS/Bootstrap | MongoDB/Mongoose  </b></p>
+                            <div className='proj-button-container'>
+                                {/* <a className="proj-button" href="https://adalawson96.github.io/memory_game/" target="_blank"><button>VIEW</button></a> */}
+                                <a className="proj-button" href="https://github.com/adalawson96/mern-tennis-club" target="_blank"><button>GITHUB</button></a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div className="project-inner">
+                        <motion.img 
+                            variants={fadeIn("up", "tween", 0.5, 0.6)}
+                            src="./Nourish.png"
+                            // width={100}
+                            // height={100}
+                            alt="project"
+                        />
+                        <div className="proj-text-container">
+                            <h3 className='proj-featured'>FEATURED PROJECT</h3>
                             <h2 className='proj-title'>NOURISH</h2>
                             <p className='proj-caption'>“Nourish” is designed to help users find restaurants that cater to their specific dietary restrictions.</p>
                             <p className='proj-stack'><b> CSS | HTML | JavaScript | Python | Django | PostgresSQL  </b></p>

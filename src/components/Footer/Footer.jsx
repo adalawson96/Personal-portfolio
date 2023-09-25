@@ -76,7 +76,7 @@ export default function Footer(){
                         <a href="https://github.com/adalawson96" target="_blank"><img src="./github.png" alt="github" /></a>
                         <a href="mailto:adalawson96@gmail.com" target="_blank"><img src="./mail.png" alt="email" /></a>
                         <a href="https://www.linkedin.com/in/ada-lawson/" target="_blank"><img src="./linkedin.png" alt="linkedin" /></a>
-                        <a href="https://drive.google.com/file/d/1t2nlh3drCRTf-FeRBFCvqT9dRGtUAV2T/view?usp=sharing" target="_blank"><img src="./resume.png" alt="resume" /></a>
+                        <a href="google.com/file/d/1t2nlh3drCRTf-FeRBFCvqT9dRGtUAV2T/view?usp=sharing" target="_blank"><img src="./resume.png" alt="resume" /></a>
                     </div>
                 </div>
                     

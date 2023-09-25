@@ -28,6 +28,12 @@ return (
                     <p>I am detail oriented by nature, a big believer in adventuring.</p>
                     <p>I thrive in collaborative environments &amp; enjoy learning new approaches <br />to problem solving from my peers.</p>
                     <p><strong><a style={{textDecoration: 'none'}}href="mailto:adalawson96@gmail.com">Get in touch!</a></strong></p> 
+                    <div className="social-icons">
+                        <a href="https://github.com/adalawson96" target="_blank"><img src="./github.png" alt="github" /></a>
+                        <a href="mailto:adalawson96@gmail.com" target="_blank"><img src="./mail.png" alt="email" /></a>
+                        <a href="https://www.linkedin.com/in/ada-lawson/" target="_blank"><img src="./linkedin.png" alt="linkedin" /></a>
+                        <a href="google.com/file/d/1t2nlh3drCRTf-FeRBFCvqT9dRGtUAV2T/view?usp=sharing" target="_blank"><img src="./resume.png" alt="resume" /></a>
+                    </div>
                     </motion.span>
                 </div>
 
