@@ -24,9 +24,7 @@ const Portfolio = () => {
                     <div className="project-inner">
                         <motion.img 
                             variants={fadeIn("up", "tween", 0.5, 0.6)}
-                            src="./Nourish.png"
-                            width={100}
-                            height={100}
+                            src="./tennis.png"
                             alt="project"
                         />
                         <div className="proj-text-container">
