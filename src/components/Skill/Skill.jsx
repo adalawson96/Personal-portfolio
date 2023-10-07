@@ -17,7 +17,7 @@ const Skill = () => {
             <a className='anchor' id="Skill"></a>
 
             <div className={`flexCenter innerWidth ${css.container}`}>
-                <span className='primaryText yPaddings'>SKILLS</span>
+                <span className='primaryText yPaddings'>BACKGROUND</span>
 
                 <div className={`flexCenter ${css.experiences}`}>
                     {workExp.map((exp, i) => {
@@ -41,6 +41,7 @@ const Skill = () => {
                             <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
                             <div><div className={css.circle} style={{background: "#6464e7"}}></div></div>
                             <div><div className={css.circle} style={{background: "#9090ee"}}></div></div>
+                            <div><div className={css.circle} style={{background: "#d2d2f8"}}></div></div>
                             <div><div className={css.circle} style={{background: "#d2d2f8"}}></div></div>
                         </motion.div>
                 </div>

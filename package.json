@@ -12,6 +12,7 @@
     "@chakra-ui/react": "^2.7.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "esbuild": "^0.19.4",
     "framer-motion": "^8.5.5",
     "nodemailer": "^6.9.3",
     "react": "^18.2.0",

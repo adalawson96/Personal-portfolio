@@ -19,6 +19,23 @@
             font-size: 1.5rem;
             font-weight: 500;
         }
+
+        .menu .social-icons {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            margin: 1rem 0 !important;
+        }
+        
+        .menu .social-icons a {
+            margin: 0 10px !important;
+            display: inline-block !important;
+        }
+        
+        .menu .social-icons a img {
+            width: 24px !important;
+            height: 24px !important;
+        }
         .menu {
 
             @media (max-width: $sm), (max-width:  $md) {

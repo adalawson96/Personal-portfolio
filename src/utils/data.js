@@ -26,17 +26,22 @@ export const workExp = [
   {
     skill: "Technical Skills",
     detail:
-      "JavaScript, React, Python, NodeJs, MongoDB, HTML, CSS"
-  },
-  {
-    skill: "Software Competencies",
-    detail:
-      "GitHub, Figma",
+      "JavaScript/React, Python, HTML, CSS/BootStrap, Git Version Control, Postgres,Git, CI/CD, .NET, NodeJS, React, Postman, MongoDB, SQL, beautifulSoup, Express, Django, Postgres, Heroku, Netlify, Tailwind, AWS Lambdas, S3, Elastic Beanstalk, MS Office, WordPress"
   },
   {
     skill: "Soft Skills",
     detail:
       "Problem solving, Critical thinking, Team player, Detail oriented, Time management",
+  },
+  {
+    skill: "Hobbies",
+    detail:
+      "Spend time in nature either hiking, surfing, or skiing. Favorite food mangoes & best company fostered dogs or caring for a hurt animal.",
+  },
+  {
+    skill: "Languages",
+    detail:
+      "Native- Spanish, English, French",
   },
 ];
 
@@ -67,6 +72,13 @@ export const sliderSettings = {
         slidesToShow: 2,
         slidesToScroll: 2,
         initialSlide: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
       },
     },
     {
