@@ -34,11 +34,6 @@ export const workExp = [
       "Problem solving, Critical thinking, Team player, Detail oriented, Time management",
   },
   {
-    skill: "Hobbies",
-    detail:
-      "Spend time in nature either hiking, surfing, or skiing. Favorite food mangoes & best company fostered dogs or caring for a hurt animal.",
-  },
-  {
     skill: "Languages",
     detail:
       "Native- Spanish, English, French",
@@ -72,13 +67,6 @@ export const sliderSettings = {
         slidesToShow: 2,
         slidesToScroll: 2,
         initialSlide: 2,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
       },
     },
     {

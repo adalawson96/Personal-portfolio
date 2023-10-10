@@ -2,6 +2,7 @@ import React from 'react';
 import css from './Hero.module.scss';
 import { motion } from "framer-motion";
 import { fadeIn, slideIn, staggerContainer } from '../../utils/motion';
+import { color } from '@chakra-ui/react';
 
 const Hero=()=> {
 return (
@@ -21,13 +22,17 @@ return (
                 <motion.span 
                 variants={fadeIn("right", 'tween', 0.2, 1)}
                 className='primaryText'>
-
                     Hey There, I'm Ada. 
                 </motion.span>
                 <motion.span className='secondaryText' variants={fadeIn("left", "tween", 0.4, 1)}>
-                    <p>I am detail oriented by nature, a big believer in adventuring.</p>
-                    <p>I thrive in collaborative environments &amp; enjoy learning new approaches <br />to problem solving from my peers.</p>
-                    <p><strong><a style={{textDecoration: 'none'}}href="mailto:adalawson96@gmail.com">Get in touch!</a></strong></p> 
+                    <p> I am a purpose-driven software engineer who loves solving complex front-end & back-end challenges. </p>
+                    <p> I am a <i><strong>strategic thinker</strong></i> by nature, & a big believer <i><strong>in adventuring</strong></i>. </p>
+                    <p> With four years of experience in hospitality & client service, </p>
+                    <p> I have a strong foundation in <i><strong>communication</strong></i>, an obsession for detail, </p> 
+                    <p> a knack for inspiring cross-functional teams, & a keen interest in the <i><strong>user experience</strong></i>.</p>
+                    <p> I am passionate about creating <i><strong>tangible solutions</strong></i> that <i><strong>make an impact</strong></i> on those around me, </p>
+                    <p> & I am looking for opportunities to build digital tools that <i><strong>better lives</strong></i>.</p>
+                    <p><strong><a style={{textDecoration: 'none'}}href="mailto:adalawson96@gmail.com">GET IN TOUCH!</a></strong></p> 
                 </motion.span>
                 </div>
 
@@ -41,7 +46,7 @@ return (
                 </motion.div>
 
             {/* Lower Elements */}
-                <div className={css.lowerElements}>
+                {/* <div className={css.lowerElements}>
                     <motion.div 
                     variants={fadeIn("right", "tween", 0.3, 1)}
                     className={css.experince}>
@@ -51,7 +56,7 @@ return (
                             </div>
                         </div>
                     </motion.div>
-                </div>
+                </div> */}
             </motion.div>
         </section>
     )
