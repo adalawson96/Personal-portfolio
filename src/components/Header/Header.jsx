@@ -33,7 +33,6 @@ const Header = () => {
                     <a href="https://github.com/adalawson96" target="_blank"><img src="./github.png" alt="github" /></a>
                     <a href="mailto:adalawson96@gmail.com" target="_blank"><img src="./mail.png" alt="email" /></a>
                     <a href="https://www.linkedin.com/in/ada-lawson/" target="_blank"><img src="./linkedin.png" alt="linkedin" /></a>
-                    {/* <a href="https://drive.google.com/file/d/1t2nlh3drCRTf-FeRBFCvqT9dRGtUAV2T/view" target="_blank"><img src="./resume.png" alt="resume" /></a> */}
                 </div>
                 </div>
                 <ul 
@@ -44,10 +43,14 @@ const Header = () => {
                     <li><a href="#Hero">Home</a></li>
                     <li><a href="#Skill">Skills</a></li>
                     <li><a href="#Portfolio">Portfolio</a></li>
-                    {/* <li><a href="#Contact">Contact</a></li> */}
-                </ul>
+                    <li><a href="https://docs.google.com/document/d/1Dc1xoP3o7ZY5ziqkMlK6_5B_JfwR_l3NeY5qmmlm8hE/edit?usp=sharing"
+                            target="_blank"
+                            download="ada_lawson_resume.txt">
+                            Resume 
+                        </a>
+                    </li>
+                </ul> 
                
-        
             {/* ONLY form medium and small screens  */}
                 <div className={css.menuIcon} 
                 onClick={()=>setMenuOpened((prev)=>!prev)}>

@@ -9,7 +9,6 @@
     max-width: 1280px;
     margin: auto;
   }
-
   width: 100%;
 }
 
@@ -17,21 +16,16 @@
   @media (min-width: $sm) {
     padding: 4rem;
   }
-
-
   @media (min-width: $xl),
   (min-width: $md) {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
-
-
 
 .xPaddings {
   @media (min-width: $sm) {
@@ -47,12 +41,10 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
-
   @media (min-width: $xl) {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -110,12 +102,13 @@
 .secondaryText {
   @media (max-width: $sm) {
     font-size: 1.1rem;
-    line-height: 40px;
+    line-height: 20px;
   }
-  line-height: 40px;
+  line-height: 20px;
   font-size: 1.3rem;
   font-weight: 500
 }
+
 .anchor {
   display: block;
   position: relative;
