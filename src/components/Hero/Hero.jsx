@@ -24,7 +24,7 @@ return (
                 className='primaryText'>
                     Hey There, I'm Ada. 
                 </motion.span>
-                <motion.span className='secondaryText' variants={fadeIn("left", "tween", 0.4, 1)}>
+                <motion.span className='secondaryText' variants={fadeIn("left", "tween", 0.9, 1)}>
                     <p> I am a purpose-driven software engineer who loves solving complex front-end & back-end challenges. </p>
                     <p> I am a <i><strong>strategic thinker</strong></i> by nature, & a big believer <i><strong>in adventuring</strong></i>. </p>
                     <p> With four years of experience in hospitality & client service, </p>

@@ -2,6 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn, staggerChildren } from '../../utils/motion';
 import css from './Portfolio.module.scss';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Portfolio = () => {
     return (
@@ -87,7 +90,10 @@ const Portfolio = () => {
                             <div className='proj-button-container'>
                                 {/* <a className="proj-button" href="https://surf-app9.herokuapp.com/" target="_blank"><button>VIEW</button></a> */}
                                 <a className="proj-button" href="https://github.com/adalawson96/surf_app" target="_blank"><button>VIEW IN GITHUB</button></a>
-                                <a className="proj-button" href="https://github.com/adalawson96/surf_app" target="_blank"><button>DETAILS</button></a>
+                                {/* <a className="proj-button" href="https://github.com/adalawson96/surf_app" target="_blank"><button>DETAILS</button></a> */}
+                                <button type="button" className="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover" data-bs-title="Overview" data-bs-content="Successfully navigated through project challenges:." aria-describedby="popover399491">
+                                    Details
+                                </button>
                             </div>
                         </div>
                     </div>

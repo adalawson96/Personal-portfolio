@@ -29,7 +29,6 @@ const Header = () => {
             <div className={`flexCenter innerWidth ${css.container}`}>
                 <div className={css.name}>
                     Ada
-                
                 <div className="social-icons">
                     <a href="https://github.com/adalawson96" target="_blank"><img src="./github.png" alt="github" /></a>
                     <a href="mailto:adalawson96@gmail.com" target="_blank"><img src="./mail.png" alt="email" /></a>

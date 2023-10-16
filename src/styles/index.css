@@ -44,12 +44,12 @@ button {
   box-shadow: 0px 21px 13px rgba(0, 0, 0, 0.13);
 }
 
-input[type="text"], input[type="email"] {
+/* input[type="text"], input[type="email"] {
   padding: 1rem .625rem;
   margin-block-end: 1rem;
   border: 0;
   width: 100%;
-}
+} */
 
 .btn-primary {
   background-color: #2e9fc3;
@@ -57,7 +57,7 @@ input[type="text"], input[type="email"] {
   cursor: pointer;
 }
 
-.form-heading {
+/* .form-heading {
   color: black;
   font-weight: 400;
   text-align: left;
@@ -65,9 +65,9 @@ input[type="text"], input[type="email"] {
   font-size: 1rem;
   margin: 0 0 .5rem;
   padding: 0;
-}
+} */
 
-.form-answer {
+/* .form-answer {
   color: black;
   font-family: 300;
   text-align: left;
@@ -75,7 +75,7 @@ input[type="text"], input[type="email"] {
   font-size: 1rem;
   margin: 0 0 1.5rem;
   padding: 0;
-}
+} */
 
 @media screen and (max-width: 767px) {
   .project-inner {
