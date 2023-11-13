@@ -33,7 +33,7 @@ const Portfolio = () => {
                         <div className="proj-text-container">
                             <h2 className='proj-title'><b>BREAK POINT</b></h2>
                             <p className='proj-caption'>React webpage for Tennis Club that offers restaurant services.</p>
-                            <p className='proj-stack'><b> HTML | JavaScript | React| CSS/Bootstrap | MongoDB/Mongoose  </b></p>
+                            <p className='proj-stack'><b> HTML | JavaScript | React| CSS/Bootstrap | MongoDB  </b></p>
                             <div className='proj-button-container'>
                                 {/* <a className="proj-button" href="https://adalawson96.github.io/memory_game/" target="_blank"><button>VIEW</button></a> */}
                                 <a className="proj-button" href="https://github.com/adalawson96/mern-tennis-club" target="_blank"><button>VIEW IN GITHUB</button></a>
